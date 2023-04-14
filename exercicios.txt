@@ -1,0 +1,75 @@
+Exercícios sobre estrutura condicional, dando ênfase nas variáveis
+
+1. Faça um algoritmo que leia os valores X, Y, Z e imprima na tela se a soma de X + Y é menor que Z. 
+
+Atribua os valores para X, Y e Z
+Faça o cálculo: X + Y 
+SE o resultado da soma for < Z
+Resultado X+Y== Z
+SENÃO 
+Resultado !=  Z
+
+2. Faça um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja “M” e estado civil seja “CASADO”, solicitar o tempo de casada (anos). 
+
+Digite: nome, 
+Digite: sexo 
+Digite: estado civil
+SE (sexo for == “M” && o estado civil for == “CASADO”)
+Informar a quanto tempo está casado
+SENÃO
+Obrigado pela informação
+
+3. Faça um algoritmo para receber um número qualquer e informar na tela se é par ou ímpar. 
+
+Digite um número qualquer
+SE o número finalizar com (0, 2, 4, 6, 8,)
+O número é == PAR
+SENÃO
+O número é ==  ímpar
+
+4. Faça um algoritmo que leia dois valores inteiros X e Y se os valores forem iguais deverá se somar os dois, caso contrário multiplique X por Y. Ao final de qualquer um dos cálculos deve-se atribuir o resultado para uma variável Z e mostrar seu conteúdo na tela. 
+
+Atribuir valor INTEIRO a X
+Atribuir valor INTEIRO a Y
+SE (X == Y), somar X + Y
+Resultado X + Y == Z
+SENÃO multiplicar (X * Y)
+Resultado X * Y == Z
+
+5. Encontrar o dobro de um número caso ele seja positivo e o seu triplo caso seja negativo, imprimindo o resultado. 
+
+Atribuir qualquer número INTEIRO a X
+SE (X == POSITIVO)
+Resultado (X * 2)
+SENÃO
+Resultado (X * 3)
+
+
+6. Escreva um algoritmo que lê dois valores booleanos (lógicos) e então determina se ambos são VERDADEIROS ou FALSOS.
+ 
+SE (10 == 11 - 1) && (29 == 20 +  9) == VERDADEIRO
+SE (27 == 19 + 10) && (17 == 10 * 2) == FALSO
+SE (32 == 27 + 5) && (40 == 2 * 12) == FALSO
+
+7. Faça um algoritmo que leia uma variável e some 5 caso seja par ou some 8 caso seja ímpar, imprimir o resultado desta operação.
+
+Atribua números inteiros para A 
+SE (A == números com final 0, 2, 4, 6, 8)
+Criar operação (A + 5)
+Resultado da operação A + 5 == B
+SENÃO
+Criar operação (A + 8)
+Resultado da operação A + 8 ==B
+
+8. Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem decrescente.
+
+!(A==B)
+!(A==C)
+!(B==C)
+Atribua números inteiros para  A, B e C
+SE (A > B) && (A > C)
+A será o 1º
+SENÃO SE (B > C)
+B será o 2º
+SENÃO
+C será o 3º
